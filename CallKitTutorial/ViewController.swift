@@ -13,12 +13,9 @@ class ViewController: UIViewController,CXProviderDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let provider = CXProvider(configuration:
-                                    CXProviderConfiguration())
-                provider.setDelegate(self, queue: nil)
-                let update = CXCallUpdate()
-                update.remoteHandle = CXHandle(type: .generic, value: "Fayeq")
-                provider.reportNewIncomingCall(with: UUID(), update: update, completion: { error in })
+                
+        sendACall()
+        
     }
     
     func providerDidReset(_ provider: CXProvider) {
@@ -32,8 +29,26 @@ class ViewController: UIViewController,CXProviderDelegate {
     func provider(_ provider: CXProvider, perform action: CXEndCallAction) {
         action.fulfill()
     }
+    
 
 
+    func recieveACall(){
+        let provider = CXProvider(configuration:
+                                    CXProviderConfiguration())
+                provider.setDelegate(self, queue: nil)
+                let update = CXCallUpdate()
+                update.remoteHandle = CXHandle(type: .generic, value: "FAYEQ")
+                provider.reportNewIncomingCall(with: UUID(), update: update, completion: { error in })
+    }
+    
+    
+    func sendACall(){
+        let provider = CXProvider(configuration: CXProviderConfiguration())
+                provider.setDelegate(self, queue: nil)
+                let controller = CXCallController()
+                let transaction = CXTransaction(action: CXStartCallAction(call: UUID(), handle: CXHandle(type: .generic, value: "FAYEQ")))
+                controller.request(transaction, completion: { error in })
+    }
 
 }
 
