@@ -13,6 +13,8 @@
 		6D30F5002684BB0A00F0FBB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D30F4FE2684BB0A00F0FBB4 /* Main.storyboard */; };
 		6D30F5022684BB0D00F0FBB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D30F5012684BB0D00F0FBB4 /* Assets.xcassets */; };
 		6D30F5052684BB0D00F0FBB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D30F5032684BB0D00F0FBB4 /* LaunchScreen.storyboard */; };
+		6D30F50F2684C27F00F0FBB4 /* CallKitDemo_Ringtone.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6D30F50E2684C27F00F0FBB4 /* CallKitDemo_Ringtone.caf */; };
+		6D30F5122684C2B100F0FBB4 /* fayeqImg.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6D30F5112684C2B100F0FBB4 /* fayeqImg.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6D30F5012684BB0D00F0FBB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D30F5042684BB0D00F0FBB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D30F5062684BB0D00F0FBB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D30F50E2684C27F00F0FBB4 /* CallKitDemo_Ringtone.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CallKitDemo_Ringtone.caf; sourceTree = "<group>"; };
+		6D30F5112684C2B100F0FBB4 /* fayeqImg.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fayeqImg.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				6D30F5012684BB0D00F0FBB4 /* Assets.xcassets */,
 				6D30F5032684BB0D00F0FBB4 /* LaunchScreen.storyboard */,
 				6D30F5062684BB0D00F0FBB4 /* Info.plist */,
+				6D30F50E2684C27F00F0FBB4 /* CallKitDemo_Ringtone.caf */,
+				6D30F5112684C2B100F0FBB4 /* fayeqImg.JPG */,
 			);
 			path = CallKitTutorial;
 			sourceTree = "<group>";
@@ -126,6 +132,8 @@
 			files = (
 				6D30F5052684BB0D00F0FBB4 /* LaunchScreen.storyboard in Resources */,
 				6D30F5022684BB0D00F0FBB4 /* Assets.xcassets in Resources */,
+				6D30F50F2684C27F00F0FBB4 /* CallKitDemo_Ringtone.caf in Resources */,
+				6D30F5122684C2B100F0FBB4 /* fayeqImg.JPG in Resources */,
 				6D30F5002684BB0A00F0FBB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
